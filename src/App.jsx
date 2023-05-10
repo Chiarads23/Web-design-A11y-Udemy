@@ -8,7 +8,7 @@ function App() {
       <img
           id="logo"
           src={logo}
-          alt='logo'
+          alt=''
         />
         <h1>Grand Canyon Adventures</h1>
       </header>
@@ -33,7 +33,7 @@ function App() {
           <figure>
             <img
               src="https://xmeltrut.github.io/accessibility-project/images/horseshoe-bend.jpg"
-              alt="red and orange-coloured mountains, with a small river stream winding around a red rock in the shape of a horsehoe"
+              alt="a small river streaming around a red rock in the shape of a horsehoe"
             />
             <figcaption>Horsehoe bend</figcaption>
           </figure>
