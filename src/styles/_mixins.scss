@@ -1,0 +1,52 @@
+@import './variables';
+
+@mixin buttonLayout (
+    $width: 16rem,
+    $cursor: pointer,
+    $border: none,
+    $outline: none,
+    $font-weight: bold,
+    $background-color: $blue,
+    $color: $white,
+    $border-radius: 8px,
+    $padding: 12px 16px,
+    $box-shadow: inset -3px -5px 10px rgba(0, 0, 0, 0.5),
+    $transition: 230ms,
+
+) {
+    width: $width;
+    cursor: $cursor;
+    border: $border;
+    outline: $outline;
+    font-weight: $font-weight;
+    background-color: $background-color;
+    color: $color;
+    border-radius: $border-radius;
+    padding: $padding;
+    box-shadow: $box-shadow;
+    transition: $transition;
+}
+
+
+@mixin Hover (
+    $background-color: $white-shadow,
+    $border: 1px solid $bright-blue,
+    $color: $black-green,
+    $box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5),
+    ) {
+        background-color: $background-color;
+        border: $border;
+        color: $color;
+        box-shadow: $box-shadow;
+    }
+
+
+ @mixin Active (
+      $color: $white,
+      $background-color: $bright-blue,
+      $box-shadow: inset 3px 5px 10px rgba(0, 0, 0, 0.5),
+    ) {
+        color: $color;
+        background-color: $background-color;
+        box-shadow: $box-shadow;
+    }
