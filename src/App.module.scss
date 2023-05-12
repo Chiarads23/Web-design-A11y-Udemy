@@ -37,7 +37,12 @@
 
   main {
     padding: 1rem;
-
+.fontInfo{
+  margin-top: 1rem;
+  em{
+    color: $brown;
+  }
+}
     p,
     h2 {
       padding-bottom: 1rem;
