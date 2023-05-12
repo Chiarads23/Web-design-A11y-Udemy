@@ -8,6 +8,7 @@
 }
 
 .App {
+  line-height: 1.5;
   font-family: $text-font;
   color: $blue;
   background-color: $white;
@@ -36,12 +37,17 @@
   }
 
   main {
-    padding: 1rem;
+    padding: 1rem; 
+    ol {
+  li{padding-left: 2rem;
+  list-style: none;}
+  }
 .fontInfo{
   margin-top: 1rem;
   em{
     color: $brown;
   }
+ 
 }
     p,
     h2 {
